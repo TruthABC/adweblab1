@@ -12,13 +12,13 @@ https://github.com/TruthABC/adweblab1/
 # 高级web lab1文档
 13300200017-刘石坚
 
-1、选题说明：
+#1、选题说明：
 
 选题1（主要选题）：采用Phonegap（codorva）软件和HTML5的hybrid移动app开发（应用到Geolocation API，local storage等HTML5特征 ）。
 
 选题2（次要选题）：JS前端框架的学习和实践（AngularJS, ReactJS等），以及Node环境下的部署和运行。
 
-2、项目概要：
+#2、项目概要：
 
 项目体现为计算器混合应用。
 
@@ -26,7 +26,7 @@ https://github.com/TruthABC/adweblab1/
 
 项目开发分为视图部分（View）与控制部分（Controller），其中视图部分基于Ionic，引用Ionic的css，控制部分采用AngularJS实现页面逻辑（操作逻辑、地址路由）。
 
-3、环境约束：
+#3、环境约束：
 
 1、项目要求配置Java环境。（JDK1.8.0_73）
 
@@ -38,7 +38,7 @@ https://github.com/TruthABC/adweblab1/
 
 5、项目可以输出apk，供安卓系统使用，apk从debug路径中取出为：“adweblab1.apk”，经测试可在安卓模拟器GenyMotion中运行（Phone - 4.4.4 - API 19 - 768x1280）。
 
-4、开发说明：
+#4、开发说明：
 
 1、项目通过Ionic命令“$ ionic start adweb1”建立，ionic生成项目的目录，以此为开发起点。（见图1）
 
@@ -82,7 +82,7 @@ https://github.com/TruthABC/adweblab1/
 
 图2-代码工作目录
 
-5、应用介绍：
+#5、应用介绍：
 
 
 
