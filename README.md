@@ -1,3 +1,4 @@
-# adweblab1
+# Lab1
 
-Oooops, test.
+ÎÄµµ¼°´úÂë
+https://github.com/TruthABC/adweblab1/
