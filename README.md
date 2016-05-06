@@ -9,8 +9,7 @@ https://github.com/TruthABC/adweblab1/
 
 
 
-# 高级web lab1文档
-13300200017-刘石坚
+# 高级web lab1文档 13300200017-刘石坚
 
 #1、选题说明：
 
