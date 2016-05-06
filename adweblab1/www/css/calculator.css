@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+#work_area{
+  margin: 0 auto;
+  background-color: rgb(200,200,250);
+  border-color: rgb(175,175,250);
+  border-style: solid;
+  border-width: 0.1em;
+  border-radius: 0.5em;
+  width: 100%;
+}
+
+#operation_area{
+  width: 96%;
+  border: 0;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 1em;
+}
+
+[type="text"]{
+  width: 100%;
+  height: 2em;
+}
+
+#read_area{
+  margin-top: 2em;
+}
+
+#write_area{
+  margin-bottom: 1em;
+}
+
+[type="cell"]{
+  width: 20%;
+  padding: 0.2em;
+}
+
+[type="button"]{
+  padding: 0;
+  min-height: 0;
+  min-width: 0;
+  height: 100%;
+  width: 100%;
+}
+
+[type="button"].broken{
+  background-color: rgb(200,200,200);
+}

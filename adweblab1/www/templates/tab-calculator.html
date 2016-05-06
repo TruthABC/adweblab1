@@ -1,0 +1,51 @@
+<ion-view view-title="计算器">
+  <ion-content class="padding">
+
+    <link rel="stylesheet" href="css/calculator.css"/>
+
+    <div id="work_area">
+      <div id="read_area">
+        <input type="text" id="read" name="read" readonly="readonly" value="{{read}}"/>
+      </div>
+      <div id="write_area">
+        <input type="text" id="write" name="write" readonly="readonly" value="{{write}}" placeholder="显示运算结果"/>
+      </div>
+      <table id="operation_area">
+        <tr>
+          <th type="cell"><input type="button" id="undo" class="broken button button-stable" name="undo" value="undo"/></th>
+          <th type="cell"><input type="button" id="reset" class="broken button button-stable" name="reset" value="reset"/></th>
+          <th type="cell"><input type="button" id="clear" class="button button-positive" name="clear" value="clear" on-touch="clr()"/></th>
+          <th type="cell"><input type="button" id="last" class="button button-positive" name="last" value="last" on-touch="last()"/></th>
+          <th type="cell"><input type="button" id="help" class="broken button button-stable" name="help" value="help"/></th>
+        </tr>
+        <tr>
+          <th type="cell"><input type="button" id="seven" class="button button-positive" name="seven" value="7" on-touch="newread(7)"/></th>
+          <th type="cell"><input type="button" id="eight" class="button button-positive" name="eight" value="8" on-touch="newread(8)"/></th>
+          <th type="cell"><input type="button" id="nine" class="button button-positive" name="nine" value="9" on-touch="newread(9)"/></th>
+          <th type="cell"><input type="button" id="div" class="button button-positive" name="div" value="/" on-touch="newope(4)"/></th>
+          <th type="cell"><input type="button" id="mod" class="broken button button-stable" name="mod" value="%"/></th>
+        </tr>
+        <tr>
+          <th type="cell"><input type="button" id="four" class="button button-positive" name="four" value="4" on-touch="newread(4)"/></th>
+          <th type="cell"><input type="button" id="five" class="button button-positive" name="five" value="5" on-touch="newread(5)"/></th>
+          <th type="cell"><input type="button" id="six" class="button button-positive" name="six" value="6" on-touch="newread(6)"/></th>
+          <th type="cell"><input type="button" id="mul" class="button button-positive" name="mul" value="*" on-touch="newope(3)"/></th>
+          <th type="cell"><input type="button" id="inv" class="broken button button-stable" name="inv" value="1/x"/></th>
+        </tr>
+        <tr>
+          <th type="cell"><input type="button" id="one" class="button button-positive" name="one" value="1" on-touch="newread(1)"/></th>
+          <th type="cell"><input type="button" id="two" class="button button-positive" name="two" value="2" on-touch="newread(2)"/></th>
+          <th type="cell"><input type="button" id="three" class="button button-positive" name="three" value="3" on-touch="newread(3)"/></th>
+          <th type="cell"><input type="button" id="sub" class="button button-positive" name="sub" value="-" on-touch="newope(2)"/></th>
+          <th type="cell" rowspan="2"><input type="button" id="equ" class="button button-positive" name="equ" value="=" on-touch="newope(0)"/></th>
+        </tr>
+        <tr>
+          <th type="cell" colspan="2"><input type="button" id="zero" class="button button-positive" name="zero" value="0" on-touch="newread(0)"/></th>
+          <th type="cell"><input type="button" id="poi" class="broken button button-stable" name="poi" value="."/></th>
+          <th type="cell"><input type="button" id="add" class="button button-positive" name="add" value="+" on-touch="newope(1)"/></th>
+        </tr>
+      </table>
+    </div>
+
+  </ion-content>
+</ion-view>
